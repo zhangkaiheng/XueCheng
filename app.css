@@ -2,15 +2,77 @@
 margin : 0;
 padding : 0;
 }
-.pp{
-    width: 200px;
-    height: 200px;
-    border: 2px solid red;
-    /* padding: 20px;  */
-    
-
- 
+li{
+    list-style: none;
 }
-.pp{
-    padding-left: 40px;
+a{
+    text-decoration: none;
+}
+.header{
+    width: 1200px;
+    height: 42px;
+    background-color: pink;
+    margin: 30px auto;
+}
+.header .logo{
+    float: left;
+    width: 195px;
+    height: 42px;
+}
+.header .nav{
+    float: left;
+    margin-left: 68px;
+    line-height: 42px;
+}
+.header .nav ul{
+    overflow: hidden;
+}
+.header .nav ul li{
+    float: left;
+}
+.header .nav ul li a{
+    float: left;
+    display: block;
+    height: 40px;
+    padding: 0 15px;
+}
+.header .nav ul li a:hover{
+    border-bottom: 2px solid #00a4ff;
+}
+.header .search{
+    width: 412px;
+    height: 40px;
+    float: left;
+    margin-left: 80px;
+}
+.header .search input{
+    float: left;
+    width: 345px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: 0px;
+    padding-left: 15px;
+}
+.header .search button{
+    float: left;
+    display: block;
+    width: 50px;
+    height: 42px;
+    border: none;
+    background: url("./imgs/search.png");
+}
+.header .profile{
+    float: left;
+    margin-left: 30px;
+    width: 118px;
+    height: 42px;
+}
+.header .profile img{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 15px;
+}
+.header .profile span{
+    padding-left: 8px;
 }
