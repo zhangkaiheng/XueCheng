@@ -2,11 +2,25 @@
 margin : 0;
 padding : 0;
 }
+body{
+    background-color: #f3f5f7;
+}
 li{
     list-style: none;
 }
 a{
     text-decoration: none;
+}
+
+.clearfix:before,.clearfix:after{
+    content:"";
+    display:table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    *zoom:1;
 }
 .w{
     width: 1200px;
@@ -186,4 +200,105 @@ a{
     float: right;
     margin-right: 35px;
     color: #00a4ff;
+}
+/* recommend */
+.recommend{
+    margin-top: 37px;
+}
+.recommend .recomHead{
+    height: 40px;
+}
+.recommend .recomHead h4{
+    float: left;
+    font-size: 19px;
+    color: #494949;
+    font-weight: 400   ;
+}
+.recommend .recomHead span{
+    float: right;
+    font-size: 11px;
+    color: #a5a5a5;
+}
+.recommend .recomBody{
+    /* overflow: hidden; */
+}
+.recommend .recomBody img{
+    width: 100%;
+    vertical-align: top;
+}
+.recommend .recomBody ul{
+    width: 1205px;
+}
+.recommend .recomBody ul li{
+    width: 228px;
+    height: 270px;
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 14px;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.recommend .recomBody h5{
+    margin: 20px 20px 20px 24px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+}
+.recommend .recomBody p{
+    font-size: 12px;
+    color: #777777;
+
+}
+.recommend .recomBody p span:nth-child(1){
+    color: #ff7c2d;
+    margin-left: 20px;
+}
+/* footer */
+.footer{
+    height: 400px;
+    background-color: #fff;
+}
+.footer .subFoot{
+    padding-top: 33px;
+}
+.footer .subFoot .copy{
+    width: 426px;
+    float: left;
+}
+.footer .subFoot .copy p{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: #666;
+}
+
+.footer .subFoot .copy button{
+	border: solid 1px #00a4ff;
+	width: 120px;
+	height: 36px;
+    font-size: 16px;
+    color: #00a4ff;
+    background-color: #fff;
+    text-align: center;
+    line-height: 36px;
+}
+.footer .subFoot .detail{
+    float: right;
+}
+.footer .subFoot .detail dl{
+    float: left;
+    margin-left: 100px;
+}
+.footer .subFoot .detail dl dt{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.footer .subFoot .detail dl dd{
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 3px;
+}
+.footer .subFoot .detail dl a:visited{
+    color: #333;
 }
