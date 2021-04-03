@@ -155,3 +155,35 @@ a{
     line-height: 38px;
     margin: 5px auto;
 }
+/* goods */
+.goods{
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px rgba(0,0,0,0.3);
+    margin: 5px auto;
+    line-height: 60px;
+    font-size: 14px;
+}
+.goods h4{
+    float: left;
+    margin-left: 35px;
+    margin-right: 35px;
+    color: #00a4ff;
+    font-size: 18px;
+    
+}
+.goods ul{
+    float: left;
+}
+.goods ul li{
+    float: left;
+}
+.goods ul li a{
+    padding: 0 35px;
+    border-left: 1px solid #bfbfbf;
+}
+.goods .mod{
+    float: right;
+    margin-right: 35px;
+    color: #00a4ff;
+}
