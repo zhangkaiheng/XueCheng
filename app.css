@@ -102,7 +102,7 @@ a{
 .banner .subBanner{
     height: 420px;
     background: pink;
-    background: url(./imgs//banner2.png);
+    background: url(./imgs/banner2.png);
 }
 .banner .subBanner .subNav{
     float: left;
@@ -184,7 +184,6 @@ a{
     margin-right: 35px;
     color: #00a4ff;
     font-size: 18px;
-    
 }
 .goods ul{
     float: left;
