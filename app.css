@@ -90,6 +90,7 @@ a{
     height: 30px;
     background-color: red;
     border-radius: 15px;
+    vertical-align: middle;
 }
 .header .profile span{
     padding-left: 8px;
