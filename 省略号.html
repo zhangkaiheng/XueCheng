@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      width: 150px;
+      height: 80px;
+      background-color: pink;
+      /* 多行省略号 */
+      overflow: hidden;
+      text-overflow: ellipsis;
+      /* 弹性伸缩盒子模型显示 */
+      display: -webkit-box;
+      /* 限制在一个块元素显示的文本的行数 */
+      -webkit-line-clamp: 2;
+      /* 设置或检索伸缩盒对象的子元素的排列方式 */
+      -webkit-box-orient: vertical;
+    }
+
+    .box1 {
+      width: 150px;
+      height: 80px;
+      background-color: pink;
+      /* 单行省略号 */
+      /* 强制一行内显示文本 */
+      white-space: nowrap;
+      /* 超出的部分隐藏 */
+      overflow: hidden;
+      /* 文字用省略号替代超出的部分 */
+      text-overflow: ellipsis;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    上的覅模式的方面手动阀门送到方面isdf貌似都i方面省得麻烦山东没翻到ifms发生的方面
+  </div>
+  <div class="box1">
+    上的覅模式的方面手动阀门送到方面isdf貌似都i方面省得麻烦山东没翻到ifms发生的方面
+  </div>
+</body>
+
+</html>

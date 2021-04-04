@@ -219,9 +219,6 @@ a{
     font-size: 11px;
     color: #a5a5a5;
 }
-.recommend .recomBody{
-    /* overflow: hidden; */
-}
 .recommend .recomBody img{
     width: 100%;
     vertical-align: top;
